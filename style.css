@@ -1,0 +1,588 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: white;
+}
+
+
+/* Banner */
+
+.bannerimg{
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  align-items: center;
+}
+
+
+
+
+/* Slide Section 1 start*/
+
+
+
+.stats-section147 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.stat147 {
+    margin: 20px;
+    text-align: center;
+}
+
+.stat147 img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    border: 2px solid red;
+    padding: 10px;
+}
+
+.stat147 .number147 {
+    font-size: 2rem;
+    color: red;
+    margin: 10px 0;
+}
+
+.stat147 p {
+    font-size: 1rem;
+    color: #333;
+}
+
+.note147 {
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: red;
+}
+
+
+/* Slide Section 1 end*/
+
+
+
+
+
+
+
+
+
+/* Slide Section 2 start*/
+
+
+
+.slider1no {
+    text-align: center;
+    padding: 20px;
+    background-color: #f3efee;
+}
+
+.slider-container {
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.9s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+}
+
+.slide img {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+}
+.slide2no0{
+  text-align: left;
+  color: red;
+  margin-left: 20%;
+}
+.slide2nocaption{
+    color: red;
+    margin: 10px 0;
+}
+
+.read-more {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.read-more:hover {
+    background-color: darkred;
+}
+
+.prev-btn, .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.prev-btn {
+    left: 10px;
+}
+
+.next-btn {
+    right: 10px;
+}
+
+
+
+/* Section 4 start */
+
+.cta-section123 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px;
+    background-color: #f0f0f0;
+}
+
+.cta123 {
+    text-align: center;
+    width: 20%;
+    margin: 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cta123:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.cta123 img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 15px;
+}
+
+.cta123 h3 {
+    font-size: 1.2rem;
+    color: red;
+    margin-bottom: 10px;
+    border: 2px solid red;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.cta123 h3:hover {
+    background-color: red;
+    color: white;
+}
+
+.cta123 p {
+    font-size: 0.95rem;
+    color: #333;
+    line-height: 1.5;
+}
+
+
+/* Section 4 end */
+
+
+
+.socialmediasectionhome{
+  width: 100%;
+  height: autu;
+  padding: 30px;
+  background-color: ;
+  text-align: center;
+}
+
+
+
+
+/* Footer Start */
+
+
+.footer {
+  background-color: black;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around; /* Align sections in one row */
+  align-items: center;
+  flex-wrap: wrap; /* Wrap sections on smaller screens */
+  gap: 20px;
+  padding: 20px;
+  border-bottom: 1px solid #333;
+}
+
+.footer-section {
+  text-align: center;
+  flex: 1; /* Ensure equal spacing for all sections */
+  min-width: 200px; /* Ensures sections stack properly on smaller screens */
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.footer-section p {
+  margin: 5px 0;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 10px; /* Add space between icon and text */
+}
+
+.footer-section a {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.footer-section .icon {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+  color: white;
+  background-color: black;
+}
+
+.footer-bottom .highlight {
+  color: blue;
+}
+
+.footer-bottom .highlight:hover {
+  background-color: red;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column; /* Stack sections vertically on smaller screens */
+  }
+
+  .footer-section {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-section p, .footer-section a {
+    font-size: 16px;
+  }
+
+  .footer-section .icon {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+
+
+/* Footer End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive */
+
+/* Header */
+@media screen and (max-width: 1160px) {
+  .nav {
+    padding: 15px 100px;
+  }
+  .nav .search-box {
+    right: 150px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .nav {
+    padding: 15px 50px;
+  }
+  .nav .search-box {
+    right: 100px;
+    max-width: 400px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .nav .navOpenBtn,
+  .nav .navCloseBtn {
+    display: block;
+  }
+  .nav {
+    padding: 15px 20px;
+  }
+  .nav .nav-links {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    height: 100%;
+    max-width: 280px;
+    width: 100%;
+    padding-top: 100px;
+    row-gap: 30px;
+    flex-direction: column;
+    background-color: #11101d;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s ease;
+    z-index: 100;
+  }
+  .nav.openNav .nav-links {
+    left: 0;
+  }
+  .nav .navOpenBtn {
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .nav .navCloseBtn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .nav .search-box {
+    top: calc(100% + 10px);
+    max-width: calc(100% - 20px);
+    right: 50%;
+    transform: translateX(50%);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+}
+
+/* Responsive header end */
+
+
+
+
+/* Responsive banner Start */
+
+@media (max-width: 480px) {
+.bannerimg{
+  width: 100%;
+  height: 250px;
+  background-repeat: no-repeat;
+  align-items: center;
+}
+}
+
+
+/* Responsive banner end */
+
+
+
+
+/* Responsive Slide Section 1 start  */
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .stats-section147 {
+        flex-direction: column;
+    }
+
+    .stat147 {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .stat147 img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .stat147 .number147 {
+        font-size: 1.5rem;
+    }
+
+    .stat147 p {
+        font-size: 0.9rem;
+    }
+}
+
+
+
+/* Responsive Slide Section 1 end  */
+
+
+
+
+
+/* Responsive Slide Section 2 Start */
+@media (max-width: 1024px) {
+    .slider-container {
+        width: 90%;
+    }
+
+    .slide {
+        padding: 15px;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    .read-more {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+
+    .prev-btn, .next-btn {
+        font-size: 20px;
+        padding: 8px;
+    }
+}
+
+@media (max-width: 768px) {
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    .read-more {
+        padding: 6px 12px;
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .slide {
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    .read-more {
+        padding: 5px 10px;
+        font-size: 0.7rem;
+    }
+
+    .prev-btn, .next-btn {
+        font-size: 18px;
+        padding: 6px;
+    }
+}
+
+
+/* Responsive Slide Section 2 end */
+
+
+
+/* Responsive Section 4 Start */
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .cta123 {
+        width: 45%;
+        margin: 10px;
+    }
+
+    .cta123 img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .cta123 h3 {
+        font-size: 1rem;
+    }
+
+    .cta123 p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .cta123 {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    .cta123 img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .cta123 h3 {
+        font-size: 0.9rem;
+    }
+
+    .cta123 p {
+        font-size: 0.85rem;
+    }
+}
+
+/* Responsive Section 4 end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
